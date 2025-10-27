@@ -1,5 +1,7 @@
 # Thundering Herd Problem — Lab Guide (Node.js + Redis + PostgreSQL)
 
+![Thundering Herd Spike](./Screenshot%202025-10-27%20at%2019.45.07.png)
+
 ## Overview
 Simulate and fix the thundering herd problem: when a popular cache key expires for many users at once, every request misses cache and stampedes the database. You will first build a naive system, then measure the meltdown, and finally implement production-grade mitigations.
 
