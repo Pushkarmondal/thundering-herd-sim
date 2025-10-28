@@ -15,8 +15,10 @@
   },
   "dependencies": {
     "@prisma/client": "^6.18.0",
+    "@types/redlock": "^4.0.8",
     "express": "^5.1.0",
     "ioredis": "^5.8.2",
-    "prisma": "^6.18.0"
+    "prisma": "^6.18.0",
+    "redlock": "^5.0.0-beta.2"
   }
 }

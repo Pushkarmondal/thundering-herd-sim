@@ -1,0 +1,12 @@
+config:
+  target: "http://localhost:4005"
+  phases:
+    - duration: 1
+      arrivalCount: 100  # 100 concurrent requests at once
+      name: "Thundering herd - controlled burst"
+  
+scenarios:
+  - name: "Hit same user"
+    flow:
+      - get:
+          url: "/users/1001"
